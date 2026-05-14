@@ -1,0 +1,11 @@
+department,category,budget_usd,spent_usd,utilisation_pct
+HR,Recruitment,150000,132000,88%
+HR,Training & Development,80000,71000,89%
+Finance,Software Licenses,200000,198000,99%
+Finance,Consulting,120000,95000,79%
+IT,Cloud Infrastructure,500000,487000,97%
+IT,Security Tools,180000,176000,98%
+Engineering,R&D Projects,800000,812000,102%
+Sales,Marketing Campaigns,300000,278000,93%
+Operations,Office & Facilities,250000,241000,96%
+Legal,External Counsel,400000,362000,91%

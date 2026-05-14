@@ -1,0 +1,11 @@
+employee_id,name,role,department,salary,hire_date,location,status
+EMP001,Alice Johnson,hr_manager,HR,85000,2019-03-15,New York,Active
+EMP002,Bob Smith,finance_analyst,Finance,78000,2020-07-01,Chicago,Active
+EMP003,Carol White,it_admin,IT,92000,2018-11-20,San Francisco,Active
+EMP004,Dave Brown,executive,Executive,180000,2015-01-10,New York,Active
+EMP005,Eve Davis,intern,Engineering,35000,2024-06-01,Remote,Active
+EMP006,Frank Miller,software_engineer,Engineering,110000,2021-04-22,Austin,Active
+EMP007,Grace Lee,data_scientist,Analytics,105000,2022-02-14,Seattle,Active
+EMP008,Henry Wilson,sales_manager,Sales,95000,2020-09-30,Boston,Active
+EMP009,Iris Chen,legal_counsel,Legal,130000,2017-08-05,New York,Active
+EMP010,Jack Taylor,devops_engineer,IT,98000,2021-12-01,Remote,Active

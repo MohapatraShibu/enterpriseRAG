@@ -1,0 +1,28 @@
+{
+  "users": {
+    "alice": { "password": "alice123", "role": "hr_manager", "name": "Alice Johnson" },
+    "bob":   { "password": "bob123",   "role": "finance_analyst", "name": "Bob Smith" },
+    "carol": { "password": "carol123", "role": "it_admin", "name": "Carol White" },
+    "dave":  { "password": "dave123",  "role": "executive", "name": "Dave Brown" },
+    "eve":   { "password": "eve123",   "role": "intern", "name": "Eve Davis" }
+  },
+  "roles": {
+    "hr_manager":      ["hr_docs", "employee_records", "compliance"],
+    "finance_analyst": ["finance_reports", "budget_csv", "compliance"],
+    "it_admin":        ["it_logs", "audit_trails", "system_reports", "compliance"],
+    "executive":       ["hr_docs", "finance_reports", "it_logs", "compliance", "strategic_docs"],
+    "intern":          ["public_docs"]
+  },
+  "document_tags": {
+    "hr_policy_2024.pdf":          ["hr_docs"],
+    "employee_records.csv":        ["employee_records"],
+    "q2_financial_report.pdf":     ["finance_reports"],
+    "budget_2024.csv":             ["budget_csv"],
+    "system_audit_logs.json":      ["audit_trails", "it_logs"],
+    "security_incidents.json":     ["it_logs"],
+    "compliance_policy.pdf":       ["compliance"],
+    "strategic_roadmap.pdf":       ["strategic_docs"],
+    "onboarding_guide.pdf":        ["public_docs", "hr_docs"],
+    "it_infrastructure_report.pdf":["system_reports", "it_logs"]
+  }
+}

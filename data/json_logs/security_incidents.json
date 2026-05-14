@@ -1,0 +1,42 @@
+[
+  {
+    "incident_id": "INC-2024-001",
+    "date": "2024-04-12",
+    "severity": "P1",
+    "type": "Database Failover",
+    "description": "Primary database became unresponsive due to disk I/O saturation. Automatic failover triggered to replica in 8 minutes. Full recovery in 14 minutes. Root cause: runaway analytics query consuming 100% I/O.",
+    "affected_systems": [
+      "prod-db-01",
+      "analytics-service"
+    ],
+    "resolution": "Query optimised, I/O limits enforced on analytics workloads.",
+    "status": "Resolved"
+  },
+  {
+    "incident_id": "INC-2024-002",
+    "date": "2024-05-03",
+    "severity": "P1",
+    "type": "DDoS Attack",
+    "description": "Volumetric DDoS attack targeting public API gateway. Peak traffic: 2.3 Gbps. AWS Shield Advanced activated. Traffic scrubbing engaged within 12 minutes. Service restored in 2 hours.",
+    "affected_systems": [
+      "api-gateway",
+      "load-balancer-01"
+    ],
+    "resolution": "Rate limiting tightened, additional WAF rules deployed.",
+    "status": "Resolved"
+  },
+  {
+    "incident_id": "INC-2024-003",
+    "date": "2024-06-18",
+    "severity": "P1",
+    "type": "Certificate Expiry",
+    "description": "TLS certificate for internal service mesh expired causing service-to-service auth failures. 45-minute outage for 3 internal services. Certificate auto-renewal misconfiguration identified.",
+    "affected_systems": [
+      "service-mesh",
+      "auth-service",
+      "notification-service"
+    ],
+    "resolution": "Certificate renewed, auto-renewal pipeline fixed and tested.",
+    "status": "Resolved"
+  }
+]
